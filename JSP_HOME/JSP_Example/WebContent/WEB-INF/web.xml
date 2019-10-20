@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+ <servlet>
+    <servlet-name>s5.jsp</servlet-name>
+    <jsp-file>/s5.jsp</jsp-file>
+    <init-param>
+ <param-name>city</param-name>
+ <param-value>bbsr</param-value>
+ </init-param>
+  </servlet>
+  <servlet-mapping>
+    <url-pattern>/s5.jsp</url-pattern>
+    <servlet-name>s5.jsp</servlet-name>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>s6.jsp</servlet-name>
+    <jsp-file>/s6.jsp</jsp-file>
+    <init-param>
+ <param-name>city</param-name>
+ <param-value>puri</param-value>
+ </init-param>
+  </servlet>
+  <servlet-mapping>
+    <url-pattern>/s6.jsp</url-pattern>
+    <servlet-name>s6.jsp</servlet-name>
+  </servlet-mapping>
+  
+  <context-param>
+    <param-name>state</param-name>
+    <param-value>odisha</param-value>
+  </context-param>
+</web-app>

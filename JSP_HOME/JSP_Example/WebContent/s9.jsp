@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+email : <%=session.getAttribute("email")%>
+phone : <%=session.getAttribute("phone") %>
+<%
+  session.invalidate();
+%>
+
+<a href="s10.jsp">click for s10</a>
+
+
+</body>
+</html>
